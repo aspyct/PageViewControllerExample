@@ -7,6 +7,7 @@
 //
 
 #import "APViewController.h"
+#import "APSimpleViewController.h"
 
 @interface APViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    APSimpleViewController *controller = [[APSimpleViewController alloc] init];
+    [self setViewControllers:@[controller] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:^(BOOL finished){}];
 }
 
 - (void)didReceiveMemoryWarning

@@ -18,6 +18,9 @@
 		74BFF1A016187FDD008B4F5A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74BFF19F16187FDD008B4F5A /* Default-568h@2x.png */; };
 		74BFF1A316187FDD008B4F5A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BFF1A116187FDD008B4F5A /* MainStoryboard.storyboard */; };
 		74BFF1A616187FDD008B4F5A /* APViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BFF1A516187FDD008B4F5A /* APViewController.m */; };
+		74BFF1AE16188009008B4F5A /* APDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BFF1AD16188009008B4F5A /* APDataSource.m */; };
+		74BFF1B21618807E008B4F5A /* APSimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BFF1B01618807E008B4F5A /* APSimpleViewController.m */; };
+		74BFF1B31618807E008B4F5A /* APSimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74BFF1B11618807E008B4F5A /* APSimpleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,11 @@
 		74BFF1A216187FDD008B4F5A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		74BFF1A416187FDD008B4F5A /* APViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APViewController.h; sourceTree = "<group>"; };
 		74BFF1A516187FDD008B4F5A /* APViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APViewController.m; sourceTree = "<group>"; };
+		74BFF1AC16188009008B4F5A /* APDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDataSource.h; sourceTree = "<group>"; };
+		74BFF1AD16188009008B4F5A /* APDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDataSource.m; sourceTree = "<group>"; };
+		74BFF1AF1618807E008B4F5A /* APSimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSimpleViewController.h; sourceTree = "<group>"; };
+		74BFF1B01618807E008B4F5A /* APSimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APSimpleViewController.m; sourceTree = "<group>"; };
+		74BFF1B11618807E008B4F5A /* APSimpleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APSimpleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,11 @@
 				74BFF1A116187FDD008B4F5A /* MainStoryboard.storyboard */,
 				74BFF1A416187FDD008B4F5A /* APViewController.h */,
 				74BFF1A516187FDD008B4F5A /* APViewController.m */,
+				74BFF1AC16188009008B4F5A /* APDataSource.h */,
+				74BFF1AD16188009008B4F5A /* APDataSource.m */,
+				74BFF1AF1618807E008B4F5A /* APSimpleViewController.h */,
+				74BFF1B01618807E008B4F5A /* APSimpleViewController.m */,
+				74BFF1B11618807E008B4F5A /* APSimpleViewController.xib */,
 				74BFF19016187FDD008B4F5A /* Supporting Files */,
 			);
 			path = PageViewControllerExample;
@@ -164,6 +177,7 @@
 				74BFF19E16187FDD008B4F5A /* Default@2x.png in Resources */,
 				74BFF1A016187FDD008B4F5A /* Default-568h@2x.png in Resources */,
 				74BFF1A316187FDD008B4F5A /* MainStoryboard.storyboard in Resources */,
+				74BFF1B31618807E008B4F5A /* APSimpleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +191,8 @@
 				74BFF19616187FDD008B4F5A /* main.m in Sources */,
 				74BFF19A16187FDD008B4F5A /* APAppDelegate.m in Sources */,
 				74BFF1A616187FDD008B4F5A /* APViewController.m in Sources */,
+				74BFF1AE16188009008B4F5A /* APDataSource.m in Sources */,
+				74BFF1B21618807E008B4F5A /* APSimpleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

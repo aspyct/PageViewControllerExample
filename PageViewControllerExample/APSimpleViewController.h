@@ -1,5 +1,5 @@
 //
-//  APViewController.h
+//  APSimpleViewController.h
 //  PageViewControllerExample
 //
 //  Created by Antoine d'Otreppe on 30/09/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface APViewController : UIPageViewController
+@interface APSimpleViewController : UIViewController
 
 @end

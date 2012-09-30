@@ -1,13 +1,13 @@
 //
-//  APViewController.h
+//  APDataSource.h
 //  PageViewControllerExample
 //
 //  Created by Antoine d'Otreppe on 30/09/12.
 //  Copyright (c) 2012 Antoine d'Otreppe. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface APViewController : UIPageViewController
+@interface APDataSource : NSObject <UIPageViewControllerDataSource>
 
 @end
